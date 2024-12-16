@@ -1,0 +1,35 @@
+{
+  "scripts": {
+    "dev": "tsx ./h3-entry.ts",
+    "build": "vite build",
+    "preview": "cross-env NODE_ENV=production tsx ./h3-entry.ts",
+    "prisma:studio": "prisma studio",
+    "prisma:generate": "prisma generate"
+  },
+  "dependencies": {
+    "@auth/core": "^0.37.4",
+    "@universal-middleware/core": "^0.3.3",
+    "@hattip/polyfills": "^0.0.49",
+    "h3": "~1.13.0",
+    "serve-static": "^1.16.2",
+    "@universal-middleware/h3": "^0.3.3",
+    "@prisma/client": "^6.0.1",
+    "telefunc": "^0.1.82",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/compiler-sfc": "^3.5.13",
+    "@vue/server-renderer": "^3.5.13",
+    "unplugin-vue-markdown": "^0.28.0",
+    "vike-vue": "^0.8.6",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vike": "^0.4.209",
+    "vite": "^6.0.3",
+    "@types/serve-static": "^1.15.7",
+    "tsx": "^4.19.2",
+    "cross-env": "^7.0.3",
+    "prisma": "^6.0.1"
+  },
+  "type": "module"
+}
